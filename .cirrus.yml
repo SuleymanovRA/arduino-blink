@@ -3,6 +3,5 @@ container:
 build_task:
   build_script:
     - echo ====================[ Build | Production | uno ]================================
-#    - cmake ./src --build ./cmake-build-uno --target Production -- -j 9
-#    - cmake ./src
+    - cmake ./src --build ./cmake-build-uno --target Production -- -j 9
     - make tests
